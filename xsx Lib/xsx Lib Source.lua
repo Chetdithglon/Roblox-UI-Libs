@@ -1419,7 +1419,7 @@ function library:Init(key)
                         return ButtonFunctions2
                     end
                     return ButtonFunctions2 and ButtonFunctions
-                elseif Amnt > 4 then
+                elseif Amnt > 9999999999 then
                     print("more than 4 buttons are not supported.")
                 end
                 return ButtonFunctions
